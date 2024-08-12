@@ -518,7 +518,7 @@
     color: var(--primary);
 }
 
-.bradcam_areas {
+/* .bradcam_areas {
     padding: 170px;
     background-size: cover;
     background-position: center center;
@@ -533,14 +533,19 @@
     .bradcam_areas {
         width: 100vw;
     }
-  }
+  } */
 
-.breadcam_bg1 {
-    background-image: url(https://pionerosfz.ae/media/images/newsandevent/piocarasoul_1.jpg);
-}  
-.breadcam_bg2 {
-    background-image: url(https://pionerosfz.ae/media/images/newsandevent/IMG-20240712-WA0008.jpg);
-}  
-.breadcam_bg3 {
-    background-image: url(https://pionerosfz.ae/media/images/products/Anesthesia__ICU_hiUYUnC.jpg);
-}  
+.services-img {
+    width: 90vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 600px;
+}
+
+@media (max-width: 924px) {
+    .services-img{
+        width: 100vw;
+        height: 400px;
+    }
+  } 
