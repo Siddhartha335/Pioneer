@@ -539,8 +539,9 @@
     width: 90vw;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
-    height: 600px;
+    margin-bottom: 40px;
+    height: 400px;
+    object-fit: cover;
 }
 
 @media (max-width: 924px) {
